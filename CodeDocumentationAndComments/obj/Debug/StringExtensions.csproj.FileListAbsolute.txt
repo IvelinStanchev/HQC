@@ -1,0 +1,6 @@
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.XML
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.dll
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.pdb
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\obj\Debug\StringExtensions.dll
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\obj\Debug\StringExtensions.pdb

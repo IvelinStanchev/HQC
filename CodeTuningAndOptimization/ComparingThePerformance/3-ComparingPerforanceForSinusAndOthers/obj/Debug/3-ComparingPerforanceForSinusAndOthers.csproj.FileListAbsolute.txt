@@ -1,0 +1,5 @@
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\3-ComparingPerforanceForSinusAndOthers\bin\Debug\3-ComparingPerforanceForSinusAndOthers.exe.config
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\3-ComparingPerforanceForSinusAndOthers\bin\Debug\3-ComparingPerforanceForSinusAndOthers.exe
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\3-ComparingPerforanceForSinusAndOthers\bin\Debug\3-ComparingPerforanceForSinusAndOthers.pdb
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\3-ComparingPerforanceForSinusAndOthers\obj\Debug\3-ComparingPerforanceForSinusAndOthers.exe
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\3-ComparingPerforanceForSinusAndOthers\obj\Debug\3-ComparingPerforanceForSinusAndOthers.pdb

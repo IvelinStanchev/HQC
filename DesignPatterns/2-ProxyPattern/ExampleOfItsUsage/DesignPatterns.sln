@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{7017215C-C340-4D13-90DC-46C48C1FD08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Proxy", "Structural\Proxy\3. Proxy.csproj", "{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6} = {7017215C-C340-4D13-90DC-46C48C1FD08B}
+	EndGlobalSection
+EndGlobal

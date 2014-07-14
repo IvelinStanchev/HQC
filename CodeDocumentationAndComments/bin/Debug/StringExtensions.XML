@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Function that interprets inputted string as boolean variable - True or False;
+            We have an array of strings - stringTrueValues. It's elements are being
+            interpreted as boolean True. Checks if the inputted string value is
+            equal to any of the stringTrueValues elements.
+            </summary>
+            <param name="input">Inputted string to be interpreted</param>
+            <returns>If inputted string equals to any element</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            Tries to parse input string to 16-bit signed integer
+            </summary>
+            <param name="input">Input string</param>
+            <returns>Parsed string to 16-bit signed integer</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Tries to parse input string to 32-bit signed integer
+            </summary>
+            <param name="input">Input string</param>
+            <returns>Parsed string to 32-bit signed integer</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            Tries to parse input string to 64-bit signed integer
+            </summary>
+            <param name="input">Input string</param>
+            <returns>Parsed string to 64-bit signed integer</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Tries to parse input string to System.DateTime
+            </summary>
+            <param name="input">Input string</param>
+            <returns>Parsed string to System.DateTime</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Returns the input text with its first letter uppercased
+            </summary>
+            <param name="input">Input string</param>
+            <returns>Inputted text with its first letter uppercased</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            From the inputted string we return the substring situated between
+            the startString and endString
+            </summary>
+            <param name="input">Input string that is going to be used</param>
+            <param name="startString">The left delimiter</param>
+            <param name="endString">The right delimiter</param>
+            <param name="startFrom">The search starts from here</param>
+            <returns>Substring from the input string. It is being situated
+            between startString and endString</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Replaces cyrillic letters with latin letters
+            </summary>
+            <param name="input">String to be replaced</param>
+            <returns>Replaced input string from cyrillic to latin letters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Replaces latin letters with cyrillic letters
+            </summary>
+            <param name="input">String to be replaced</param>
+            <returns>Replaced input string from latin to cyrillic letters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Converts input text from cyrillic to latin letters.
+            Removes all non-alphanumeric characters except "."
+            </summary>
+            <param name="input">Input string that is going to be filtered</param>
+            <returns>Filtered text</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Converts input text from cyrillic to latin letters.
+            Replaces spaces with "-"
+            Removes all non-alphanumeric characters except "." and "-"
+            </summary>
+            <param name="input">Input string that is going to be filtered</param>
+            <returns>Filtered text</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Returns a substring from the inputted string. It starts from the beginning
+            of the input text and ends at the lesser of: input text length or
+            the charCount variable
+            </summary>
+            <param name="input">Input string for the manipulation</param>
+            <param name="charsCount">This number points the end of
+            the returned substring in case it's less than the input string length</param>
+            <returns>Returns a substring from the inputted string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Returns file extension derived from fileName as input string
+            </summary>
+            <param name="fileName">fileName as string text</param>
+            <returns>Returns file extension</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Uses dictionary. If the inputted file extension is contained as a key
+            in the dictionary we will have the dictionary value returned.
+            </summary>
+            <param name="fileExtension">used to check if is contained
+            as key in the dictionary</param>
+            <returns>value from the dictionary corresponding to the input key</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts a set of characters from the specified character array
+            into a sequence of bytes.
+            </summary>
+            <param name="input">Input string.</param>
+            <returns>A byte array containing the specified set of characters.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+Potato potato;
+//... 
+if (potato != null)
+{
+   if(potato.HasBeenPeeled && potato.IsFresh)
+   {
+		Cook(potato);
+   }
+}
+
+	
+	
+	
+if ((MIN_X <= x && x =< MAX_X) && (MIN_Y <= y && y <= MAX_Y) && shouldVisitCell)
+{
+   VisitCell();
+}

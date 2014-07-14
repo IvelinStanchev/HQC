@@ -1,0 +1,5 @@
+E:\Telerik\Homework\KPK\HighQualityMethods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+E:\Telerik\Homework\KPK\HighQualityMethods\Methods\bin\Debug\Methods.exe
+E:\Telerik\Homework\KPK\HighQualityMethods\Methods\bin\Debug\Methods.pdb
+E:\Telerik\Homework\KPK\HighQualityMethods\Methods\obj\Debug\Methods.exe
+E:\Telerik\Homework\KPK\HighQualityMethods\Methods\obj\Debug\Methods.pdb

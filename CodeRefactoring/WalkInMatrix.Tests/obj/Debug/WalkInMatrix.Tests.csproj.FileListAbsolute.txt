@@ -1,0 +1,14 @@
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.dll
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.pdb
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\bin\Debug\GameFifteen.exe
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\bin\Debug\GameFifteen.pdb
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.dll
+D:\Telerik\Homework\KPK\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.pdb
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.dll
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.pdb
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\bin\Debug\GameFifteen.exe
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\bin\Debug\GameFifteen.pdb
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.dll
+D:\Telerik\Homework\KPK\CodeRefactoring\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.pdb

@@ -1,0 +1,6 @@
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\bin\Debug\2-ComparingPerformance.exe.config
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\bin\Debug\2-ComparingPerformance.exe
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\bin\Debug\2-ComparingPerformance.pdb
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\obj\Debug\2-ComparingPerformance.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\obj\Debug\2-ComparingPerformance.exe
+D:\Telerik\Homework\KPK\CodeTuningAndOptimization\ComparingThePerformance\2-ComparingPerformance\obj\Debug\2-ComparingPerformance.pdb

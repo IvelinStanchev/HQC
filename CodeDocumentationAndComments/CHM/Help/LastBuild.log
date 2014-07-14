@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2014.4.22.0" projectFile="D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\CHMBook.shfbproj" started="5/14/2014 6:37:50 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;D:\SHFBInstallation\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+   D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM
+Using presentation style &#39;VS2005&#39; located in &#39;D:\SHFBInstallation\PresentationStyles\VS2005&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.dll
+    Found assembly &#39;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.dll&#39;
+Source: D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.XML
+
+Copying XML comments files
+    D:\Telerik\Homework\KPK\CodeDocumentationAndComments\bin\Debug\StringExtensions.XML -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\StringExtensions.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.3000
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0300
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 5/14/2014 6:37:55 PM.
+Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 1 types, and 16 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\SHFBInstallation\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.57
+    Last step completed in 00:00:08.4140
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 5/14/2014 6:38:03 PM.
+Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\SHFBInstallation\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\SHFBInstallation\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\SHFBInstallation\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.58
+    Last step completed in 00:00:05.7800
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.1290
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0300
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 5/14/2014 6:38:09 PM.
+Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\SHFBInstallation\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:03.6590
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.4020
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0900
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Build started 5/14/2014 6:38:13 PM.
+Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\Ivelin\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Telerik.ILS.Common] Missing &lt;summary&gt; documentation [D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Telerik.ILS.Common.StringExtensions] Missing &lt;summary&gt; documentation [D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)] Missing &lt;summary&gt; documentation [D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)] Missing &lt;returns&gt; documentation [D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj]
+  Processed 20 topic(s)
+  5 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 8 entries
+Done Building Project &quot;D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.04
+    Last step completed in 00:00:38.0680
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0090
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2014.4.22.0
+Copyright c 2006-2014, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1
+Processed 20 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Documentation.hhc
+    Last step completed in 00:00:03.5430
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\adm.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\adm.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\adm_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\adm_dev.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\adm_dev_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\alert_caution.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\alert_note.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\alert_security.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\big_adm.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\big_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\big_dev.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\big_kw.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\box.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\box.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\Caution.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\CFW.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\collall.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\collall.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\collapse.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\collapse_all.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\copycode.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\copycodeHighlight.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\dev.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\dev.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\dev_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\dropdown.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\dropdownHover.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\drpdown.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\drpdown_orange.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\drpdown_orange_up.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\drpup.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\exp.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\exp.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\expall.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\expall.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\expand_all.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\filter1a.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\filter1c.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\footer.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\footer.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\gradient.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\greencheck.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\greychck.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\header_prev_next.jpg -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_adm.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_adm_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_adm_dev.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_adm_dev_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_dev.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\kw_dev_arch.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\LastChild.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\load.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\load.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\load_hover.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\note.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\note.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pencil.GIF -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privclass.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privdelegate.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privenum.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privenumeration.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privevent.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privextension.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privfield.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privinterface.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privmethod.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privproperty.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\privstructure.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protclass.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protdelegate.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protenum.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protenumeration.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protevent.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protextension.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protfield.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protinterface.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protmethod.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protoperator.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protproperty.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\protstructure.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubclass.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubdelegate.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubenum.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubenumeration.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubevent.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubextension.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubfield.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubinterface.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubmethod.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\puboperator.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubproperty.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\pubstructure.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\requirements1a.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\requirements1c.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\save.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\save.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\save_hover.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\security.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\security.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\seealso1a.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\seealso1c.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\slMobile.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\static.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\static.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\icons\xna.gif -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\icons\xna.gif
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\CheckboxMenu.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\CommonUtilities.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\Dropdown.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\EventUtilities.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\script_feedBack.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\script_manifold.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+D:\SHFBInstallation\PresentationStyles\VS2005\scripts\SplitScreen.js -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+D:\SHFBInstallation\PresentationStyles\VS2005\styles\Presentation.css -&gt; D:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+    Last step completed in 00:00:01.1240
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0500
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 2 seconds
+  
+  22	Topics
+  
+  245	Local links
+  
+  85	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\Telerik\Homework\KPK\CodeDocumentationAndComments\CHM\Help\Working\Output\HtmlHelp1\Documentation.chm, 111,067 bytes
+  
+  Compression decreased file by 321,087 bytes.
+  
+    Last step completed in 00:00:06.5420
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0300
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 05/14/2014 06:39 PM.  Total time: 00:01:11.1220
+
+</buildStep>
+</shfbBuild>

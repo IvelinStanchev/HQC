@@ -1,0 +1,33 @@
+public void PrintStatistics(double[] numbers, int numbersCount)
+{
+    double maxNumber = double.MinValue;
+    for (int i = 0; i < numbersCount; i++)
+    {
+        if (numbers[i] > maxNumber)
+        {
+            maxNumber = numbers[i];
+        }
+    }
+
+    Print(maxNumber);
+
+    double minNumber = double.MaxNumber;
+    for (int i = 0; i < numbersCount; i++)
+    {
+        if (numbers[i] < minNumber)
+        {
+            minNumber = numbers[i];
+        }
+    }
+
+    Print(minNumber);
+
+    double numbersSum = 0;
+    for (int i = 0; i < numbersCount; i++)
+    {
+        numbersSum += numbers[i];
+    }
+
+    double average = numbersSum / numbersCount;
+    Print(average);
+}

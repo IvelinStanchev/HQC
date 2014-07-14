@@ -1,0 +1,23 @@
+public class Size
+{
+  private double width;
+  private double height;
+  public Size(double width, double height)
+  {
+    this.width = width;
+    this.height = height;
+  }
+}
+
+public static Size GetRotatedSize(Size size, double angleOfRotation)
+{
+	private Size rotatedSize;
+	private oldWidth = size.width;
+	private oldHeight = size.height;
+	rotatedSize = new Size(Math.Abs(Math.Cos(angleOfRotation)) * oldWidth + 
+						   Math.Abs(Math.Sin(angleOfRotation)) * oldHeight,
+						   Math.Abs(Math.Sin(angleOfRotation)) * oldWidth + 
+						   Math.Abs(Math.Cos(angleOfRotation)) * oldHeight);
+
+	return rotatedSize;
+}

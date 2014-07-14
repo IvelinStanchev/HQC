@@ -1,0 +1,5 @@
+D:\Telerik\Homework\KPK\DefensiveProgrammingAndExceptions\Assertions-Homework\bin\Debug\Assertions-Homework.exe
+D:\Telerik\Homework\KPK\DefensiveProgrammingAndExceptions\Assertions-Homework\bin\Debug\Assertions-Homework.pdb
+D:\Telerik\Homework\KPK\DefensiveProgrammingAndExceptions\Assertions-Homework\obj\Debug\Assertions-Homework.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\KPK\DefensiveProgrammingAndExceptions\Assertions-Homework\obj\Debug\Assertions-Homework.exe
+D:\Telerik\Homework\KPK\DefensiveProgrammingAndExceptions\Assertions-Homework\obj\Debug\Assertions-Homework.pdb
